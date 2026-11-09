@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "name": "mock-json",
+      "type": "json",
+      "url": "http://127.0.0.1:8080/json/products",
+      "page_size": 10,
+      "concurrency": 3,
+      "min_interval": 0.2,
+      "max_retries": 5
+    },
+    {
+      "name": "mock-html",
+      "type": "html",
+      "url": "http://127.0.0.1:8080/html/products",
+      "min_interval": 0.5,
+      "max_retries": 5
+    }
+  ]
+}

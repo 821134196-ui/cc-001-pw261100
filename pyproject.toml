@@ -1,0 +1,9 @@
+[project]
+name = "product-collector"
+version = "0.1.0"
+description = "本地商品采集工具（分页 JSON 接口 + HTML 商品列表）"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
